@@ -1,0 +1,22 @@
+{
+  "name": "tweety",
+  "version": "1.0.0",
+  "description": "Una aplicación de Twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "CristianHernan92",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "RepositorioTwitter"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nunjucks": "^3.2.2"
+  }
+}
